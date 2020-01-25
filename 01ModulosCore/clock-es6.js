@@ -4,9 +4,9 @@ var Clock = (function () {
         inherits = require('util').inherits
     //Constructor
     var Clock = function () {
-        var self = this;
-        setInterval(function () {
-            self.emit('tictac');
+        //var self = this;
+        setInterval(() => {
+            this.emit('tictac');
         }, 1000);
     };
 
@@ -19,7 +19,8 @@ var Clock = (function () {
             min = addZero(date.getMinutes()),
             sec = addZero(date.getSeconds()),
             ampm = (date.getHours() < 12) ? 'am' : 'pm',
-            msg = hrs + ':' + min + ':' + sec + ampm;
+            //msg = hrs + ':' + min + ':' + sec + ampm;
+            msg = `${hrs}:${min}:${sec}${ampm}`;
 
         function addZero(num) {
             return (num < 10 ? ('0' + num) : num);
