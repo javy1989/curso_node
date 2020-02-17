@@ -1,0 +1,26 @@
+extends ./layout.jade
+block content
+    article#jade.container
+        h1
+            a(href="#{link}" target="_blank")=title
+        p=description
+    article.container
+        h2 Estructura Básica de Jade
+        p  Este archivo HTML es generado con el motor de plantillas Jade
+        p  
+            |Para concatenar contenido
+            |en varias líneas
+            |se usa el pipe '|'
+    include logo
+
+    article.container
+        // Interpolación
+        p.
+            Documentación
+            #[a(href="http://jade-lang.com" target="_blank") API]
+        br
+        button#presioname.boton Presioname
+        script.
+            document.querySelector('#presioname').onclick= ()=>{
+                alert('Ejecutado')
+            }

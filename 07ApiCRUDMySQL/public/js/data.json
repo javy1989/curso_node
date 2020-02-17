@@ -1,0 +1,25 @@
+{"pregunta1":{
+    "pregunta":"1.- Que nombres de aerolineas nacionales recuerda?",
+    "tame":true,"otros":""
+    },
+    "pregunta2":{
+        "pregunta":"2.- En que aerolinea viajo por ultima vez?",
+        "tame":true,
+        "otros":""
+    },
+    "pregunta3":{
+        "pregunta":"3.- Cual es su aerolinea preferida?",
+        "tame":true,
+        "otros":""
+        },
+    "pregunta4":{
+        "pregunta":"4.- Por que es preferida su Aerolinea? por:",
+        "respuestas4":[
+            {"respuesta":"Servicio/Atencion",
+                "seleccion":true},
+                {"respuesta":"Publicidad",
+                    "seleccion":false}
+                    ,
+                    {"respuesta":"Precio",
+                        "seleccion":false},
+                        {"respuesta":"Convenio con empresa","seleccion":false},{"respuesta":"Promociones","seleccion":false},{"respuesta":"Disponibilidad de vuelos","seleccion":false},{"respuesta":"Puntualidad","seleccion":false},{"respuesta":"Seguridad","seleccion":false}]},"pregunta5":{"pregunta":"5.- Vamos a calificar 1 a 5, siendo 5 Totalmente Satisfactorio, 4 Muy Satisfactorio, 3 Satisfactorio, 2 Poco Satisfactorio, 1 Nada Satisfactorio","respuestas5":[{"respuesta":"Puntualidad","tame":1,"otros":null},{"respuesta":"Seguridad","tame":2,"otros":null},{"respuesta":"Amabilidad","tame":3,"otros":null},{"respuesta":"Disponibilidad de vuelos","tame":5,"otros":null},{"respuesta":"Informacion de vuelos","tame":1,"otros":null},{"respuesta":"Atencion telefonica","tame":2,"otros":null},{"respuesta":"Servicio en Areopuerto","tame":3,"otros":null},{"respuesta":"Atencion en puntos de venta","tame":4,"otros":null},{"respuesta":"Servicio a bordo","tame":2,"otros":null}]},"pregunta6":{"pregunta":"6.- En su caso: Quien dicide la aerolnea en la que debe volar","usted":false,"empresa":true,"agencia":false},"pregunta7":{"pregunta":"7.- Como compra su ticket areo?","internet":true,"online":false,"empresa":false,"agencia":false,"areopuerto":false},"pregunta8":{"pregunta":"8.- Cual es su motivo de viaje?","turismo":false,"negocios":true,"familia":false,"estudio":false},"pregunta9":{"pregunta":"9.- Ha viajado usted en avin en estos ultimos 3 meses?/Cuntes veces viaja usted en avin?","menosunavez":false,"unames":false,"dosmes":false,"tresmes":true,"cuatromes":false,"cincomes":false},"pregunta10":{"pregunta":"10.- Su rango de edad est entre ...?","d1830":false,"d3040":true,"d4050":false,"d5060":false,"masd60":false},"pregunta11":{"pregunta":"11.- Genero","m":true,"f":false},"pregunta12":{"pregunta":"12.- Ha volado alguna vez en TAME","s":false,"n":true},"pregunta13":{"pregunta":"13.- Vamos a calificar 1 a 5, siendo 5 Totalmente Satisfactorio, 4 Muy Satisfactorio, 3 Satisfactorio, 2 Poco Satisfactorio, 1 Nada Satisfactorio","valor":2},"cliente":{"vuelo":"65","ruta":"yu","mail":"javu","celular":"","pin":""}}
